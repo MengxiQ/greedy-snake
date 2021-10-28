@@ -13,7 +13,7 @@ export class ScorePanel{
     }
     addScore():void{
         this.scoreEle.innerText = String(++this.score);
-        if(this.score % 10 === 0){
+        if(this.score % this.upScore === 0){
             this.levelUP()
         }
     }
