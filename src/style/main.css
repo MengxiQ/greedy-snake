@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  margin: auto;
+  background-color: #b7d4a8;
+  height: 420px;
+  width: 360px;
+  border: 10px solid #000;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+#main > #stage {
+  position: relative;
+  width: 304px;
+  height: 304px;
+  border: 2px solid #000;
+}
+#main > #stage #snake {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background-color: #000;
+  border: 1px solid #b7d4a8;
+}
+#main > #stage #foo {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  top: 100px;
+  left: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+#main > #stage #foo > div {
+  height: 5px;
+  width: 5px;
+  background-color: #000;
+  transform: rotate(45deg);
+}
+#main > #score-panel {
+  width: 304px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Courier New", serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=main.css.map */
